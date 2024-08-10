@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container-1{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cal-1{
+    border:2px solid yellow;
+     background: #222;
+    border-radius: 20px;
+    padding: 50px;
+}
+.cal-1 form input{
+    border: 1px solid  #676666;
+    outline: 0;
+    width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 60px;
+    color: #c9c4c4;
+    cursor: pointer;
+    font-size: 25px;
+    background:rgba(128, 128, 128, 0.342);
+}
+.cal-1 form input:hover{
+    color: #03e3fc;
+    box-shadow: 0 0 5px #00fffb51, 0 0 20px #00fffb51, 0 0 50px #00fffb51,
+    0 0 100px #00fffb51;
+}
+form .dplay{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .dplay input{
+    text-align: right;
+    flex: 1;
+    color:  #f6f5f2;
+    font-size: 45px;
+    border: 1px solid;
+    box-shadow: 0 0 5px #f6ff0051, 0 0 20px #e3fc036f, 0 0 50px #d4ff0067,
+    0 0 100px #0a0b006e;
+}
+form input.equal{
+    width: 165px;
+    border: 1px solid #03e3fc;
+    color: #00eeff;
+}
